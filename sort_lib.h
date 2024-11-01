@@ -12,7 +12,7 @@ void merge_sort(int x[],int array_size);
 void quick_sort(int x[], int l, int r);
 
 //utility functions which are called by the respective sort functions
-void merge_sort(int a[], int array_size);
+void merge(int b[], int n1, int c[], int n2, int a[]);
 int partition(int x[], int l, int r);
 void swap(int* a, int* b);
 
